@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 14.412 s <<< FAILURE! - in tests.HomePageTest
+setup(tests.HomePageTest)  Time elapsed: 14.079 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Browser.newContext()" because "this.browser" is null
+	at tests.HomePageTest.setup(HomePageTest.java:24)
+
